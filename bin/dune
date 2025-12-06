@@ -2,6 +2,6 @@
  (public_name aoc2025)
  (name main)
  (libraries)
- (modules Main D1 D2)
+ (modules Main D1 D2 D3 Util)
  )
 

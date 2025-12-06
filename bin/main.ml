@@ -7,6 +7,8 @@ let () =
     | ("1", "b") -> D1.part_b
     | ("2", "a") -> D2.part_a
     | ("2", "b") -> D2.part_b
+    | ("3", "a") -> D3.part_a
+    | ("3", "b") -> D3.part_b
     | _ -> (fun _ -> "unknown day")
   ) in
   print_endline (f input)
