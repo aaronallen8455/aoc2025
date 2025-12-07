@@ -13,6 +13,8 @@ let () =
     | ("4", "b") -> D4.part_b
     | ("5", "a") -> D5.part_a
     | ("5", "b") -> D5.part_b
+    | ("6", "a") -> D6.part_a
+    | ("6", "b") -> D6.part_b
     | _ -> (fun _ -> "unknown day")
   ) in
   print_endline (f input)
