@@ -19,6 +19,8 @@ let () =
     | ("7", "b") -> D7.part_b
     | ("8", "a") -> D8.part_a
     | ("8", "b") -> D8.part_b
+    | ("9", "a") -> D9.part_a
+    | ("9", "b") -> D9.part_b
     | _ -> (fun _ -> "unknown day")
   ) in
   print_endline (f input)
